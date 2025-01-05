@@ -3,13 +3,13 @@ NAME = Weapon
 SRC = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 OBJ = $(SRC:.cpp=.o)
 
-CPP = c++
-CPPFLAGS = -Wall -Wextra -Werror -std=c++98
+CXX = c++
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 all: $(NAME)
 
 $(NAME) : $(OBJ)
-	${CPP} ${CPPFLAGS} ${OBJ} -o ${NAME}
+	${CXX} ${CXXFLAGS} ${OBJ} -o ${NAME}
 
 clean:
 	rm -f $(OBJ)

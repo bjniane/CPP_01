@@ -1,6 +1,6 @@
 #include "HumanA.h"
 
-HumanA::HumanA(std::string name_val, Weapon weapon_name)
+HumanA::HumanA(std::string name_val, Weapon &weapon_name)
     : name(name_val), weapona(weapon_name)
 {
 }

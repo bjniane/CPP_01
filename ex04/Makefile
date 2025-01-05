@@ -1,6 +1,6 @@
-NAME = ZombieHodre
+NAME = filename
 
-SRC = main.cpp Zombie.cpp zombieHorde.cpp
+SRC = main.cpp file.cpp
 OBJ = $(SRC:.cpp=.o)
 
 CXX = c++

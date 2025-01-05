@@ -1,6 +1,6 @@
-NAME = ZombieHodre
+NAME = harlFilter
 
-SRC = main.cpp Zombie.cpp zombieHorde.cpp
+SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 
 CXX = c++
